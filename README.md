@@ -51,7 +51,7 @@ The project investigated vertebral landmark localisation and 3D vertebral shape 
 - public-facing project overview
 - annotation workflow explanation
 - result interpretation notes
-- contribution / authorship boundaries
+- contribution/authorship boundaries
 - public repo scope notes
 
 ### Results and figures
@@ -111,22 +111,3 @@ See:
 - `assets/figures/results/patch_size_vs_mean_distance.png`
 - `assets/figures/results/accuracy_vs_runtime.png`
 
-## Suggested GitHub description
-
-MSc medical imaging project on vertebral CT landmark annotation, 3D statistical shape modelling, and single-stage / two-stage RFRV-CLM evaluation.
-
-## Suggested GitHub topics
-
-`medical-imaging` `ct` `vertebrae` `statistical-shape-model` `landmark-localisation` `computer-vision` `research-project`
-
-## How to talk about this project in interviews
-
-A safe and accurate summary is:
-
-> I worked on vertebral CT landmark annotation, annotation-quality refinement, experiment tracking, and comparative evaluation for a 3D shape-modelling project, using a provided modelling environment.
-
-That phrasing shows ownership of your real contribution without overstating authorship of external tools.
-
-## Recommended next upgrade
-
-The best future improvement would be to add anonymised annotation-interface screenshots or a small notebook reproducing the summary plots from the CSV files.
