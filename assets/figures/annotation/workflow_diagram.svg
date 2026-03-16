@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1180" viewBox="0 0 1900 1180">
+<rect width="100%" height="100%" fill="white"/>
+<text x="950.0" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#111827">Vertebral CT modelling project workflow</text>
+<rect x="90" y="255" width="350" height="195" rx="28" ry="28" fill="#EAF2FF" stroke="#1F2937" stroke-width="4"/>
+<text x="116" y="303" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">1. Input data</text>
+<text x="116" y="344" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• CT vertebral cases</text>
+<text x="116" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Linked .pts.v3i image</text>
+<text x="116" y="395" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">files</text>
+<text x="116" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• 345 annotated examples</text>
+<text x="116" y="446" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">reported</text>
+<rect x="500" y="255" width="430" height="235" rx="28" ry="28" fill="#EEF8EE" stroke="#1F2937" stroke-width="4"/>
+<text x="526" y="303" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">2. Annotation workflow</text>
+<text x="526" y="344" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Multiple annotation versions</text>
+<text x="526" y="366" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">reviewed</text>
+<text x="526" y="395" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• HX and YJ comparison cycles</text>
+<text x="526" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• avg2 / avg4 reference point sets</text>
+<text x="526" y="453" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Per-point agreement analysis</text>
+<rect x="990" y="255" width="400" height="195" rx="28" ry="28" fill="#FFF7E8" stroke="#1F2937" stroke-width="4"/>
+<text x="1016" y="303" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">3. Shape modelling</text>
+<text x="1016" y="344" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Statistical shape model</text>
+<text x="1016" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Vertebral landmark</text>
+<text x="1016" y="395" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">representation</text>
+<text x="1016" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Training / test split</text>
+<text x="1016" y="446" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">documented</text>
+<rect x="1450" y="255" width="340" height="195" rx="28" ry="28" fill="#F6EEFF" stroke="#1F2937" stroke-width="4"/>
+<text x="1476" y="303" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">4. Model fitting</text>
+<text x="1476" y="344" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• RFRV-CLM search</text>
+<text x="1476" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Single-stage experiments</text>
+<text x="1476" y="402" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Two-stage refinement</text>
+<rect x="500" y="620" width="430" height="205" rx="28" ry="28" fill="#FFEFF3" stroke="#1F2937" stroke-width="4"/>
+<text x="526" y="668" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">5. Quantitative evaluation</text>
+<text x="526" y="709" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Mean, median and percentile</text>
+<text x="526" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">distances</text>
+<text x="526" y="760" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Patch-size sweeps</text>
+<text x="526" y="789" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Best-model comparison</text>
+<rect x="990" y="610" width="800" height="220" rx="28" ry="28" fill="#ECF8F7" stroke="#1F2937" stroke-width="4"/>
+<text x="1016" y="658" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">6. Public GitHub curation</text>
+<text x="1016" y="699" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Keep your own docs, scripts, figures and results</text>
+<text x="1016" y="728" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Include sample files only</text>
+<text x="1016" y="757" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">• Document provided tools without claiming authorship</text>
+<line x1="440" y1="352" x2="480" y2="352" stroke="#1F2937" stroke-width="7"/>
+<polygon points="480,352 461.40447028223497,359.3624910536936 461.40447028223497,344.6375089463064" fill="#1F2937"/>
+<line x1="930" y1="352" x2="970" y2="352" stroke="#1F2937" stroke-width="7"/>
+<polygon points="970,352 951.404470282235,359.3624910536936 951.404470282235,344.6375089463064" fill="#1F2937"/>
+<line x1="1390" y1="352" x2="1430" y2="352" stroke="#1F2937" stroke-width="7"/>
+<polygon points="1430,352 1411.404470282235,359.3624910536936 1411.404470282235,344.6375089463064" fill="#1F2937"/>
+<line x1="715" y1="490" x2="715" y2="595" stroke="#1F2937" stroke-width="7"/>
+<polygon points="715,595 707.6375089463064,576.404470282235 722.3624910536936,576.404470282235" fill="#1F2937"/>
+<line x1="1190" y1="450" x2="1190" y2="585" stroke="#1F2937" stroke-width="7"/>
+<polygon points="1190,585 1182.6375089463065,566.404470282235 1197.3624910536935,566.404470282235" fill="#1F2937"/>
+</svg>
