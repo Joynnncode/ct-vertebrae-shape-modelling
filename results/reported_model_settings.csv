@@ -1,0 +1,4 @@
+setting_group,frame_width,patch_size,final_mean_distance_mm,notes,stage_1_frame_width,stage_1_patch_size,stage_2_reference
+single_stage_best_reported,40.0,15x15x15,1.64,Best single-stage setup reported in dissertation summary.,,,
+two_stage_best_reported,,,1.63,Best two-stage setup reported in dissertation summary.,30.0,15x15x15,best single-stage model
+single_stage_sweep_available,50.0,5x5x5 to 16x16x16,,Detailed sweep preserved as CSV in results/model_patch_sweep_fw50_detailed.csv.,,,
