@@ -1,113 +1,40 @@
 # Vertebral CT Landmark Annotation and 3D Shape Modelling Study
 
-A portfolio-ready academic project repository on vertebral landmark annotation, statistical shape modelling, and RFRV-CLM evaluation from CT.
+This repository presents an MSc medical imaging project focused on vertebral CT landmark annotation, 3D shape modelling, and comparative evaluation of single-stage and two-stage RFRV-CLM approaches.
 
-## What this repo is
+It is a public portfolio version of the project, designed to show the study workflow, annotation review process, experimental comparisons, and key results, while excluding course- or lab-provided software that was not authored by me.
 
-This is a curated GitHub version of my vertebral modelling project. It is designed to show the parts of the work I can confidently present as my own contribution:
+## Overview
 
-- annotation workflow refinement
-- experiment tracking and result curation
-- comparative evaluation of model settings
-- documentation and public repo packaging
+The project investigated shape-based vertebral landmark localisation using CT-derived data. The work involved annotation review, model comparison, and quantitative evaluation of localisation accuracy and runtime.
 
-It also makes clear that the original project environment included provided tools and framework components that are **not** claimed here as my own software.
+## What I did
 
-## Project focus
+- Reviewed and refined vertebral landmark annotations across multiple iterations
+- Organised experimental records and prepared result summaries
+- Compared single-stage and two-stage model configurations
+- Analysed localisation error and runtime trade-offs
+- Produced structured documentation and a public-facing GitHub portfolio repository
 
-The project investigated vertebral landmark localisation and 3D vertebral shape modelling using CT data. The workflow combined:
+## Repository Structure
 
-- manual vertebral landmark annotation
-- multi-round observer comparison and revision
-- averaged reference point generation
-- statistical shape model construction
-- single-stage and two-stage RFRV-CLM fitting
-- quantitative evaluation using landmark distance metrics
+- `docs/` project documentation and workflow notes  
+- `results/` cleaned summary tables and CSV outputs  
+- `assets/figures/` selected figures and visual summaries  
+- `samples/` small non-sensitive example files  
+- `scripts/analysis/` analysis and comparison scripts  
 
-## Repo structure
+## Key Points
 
-```text
-.
-├── assets/
-│   └── figures/
-│       ├── annotation/
-│       ├── models/
-│       └── results/
-├── docs/
-├── manifests/
-├── results/
-├── samples/
-│   ├── annotations/
-│   └── images/
-├── scripts/
-│   └── analysis/
-├── NOTICE.md
-└── README.md
-```
+- Focused on vertebral CT landmark annotation and 3D shape modelling
+- Compared single-stage and two-stage RFRV-CLM approaches
+- Summarised results using tables, plots, and supporting documentation
+- Presented as a portfolio project rather than a full software release
 
-## What is included
+## Scope
 
-### Documentation
-- public-facing project overview
-- annotation workflow explanation
-- result interpretation notes
-- contribution/authorship boundaries
-- public repo scope notes
+This repository reflects my project work in annotation review, experiment comparison, results analysis, and documentation.
 
-### Results and figures
-- annotation revision summary tables
-- patch-size sweep tables
-- best-model comparison table
-- derived GitHub-friendly figures from the uploaded spreadsheets
+It does not claim authorship of the original academic framework, software tools, or full model environment used during the project.
 
-### Representative sample files
-- four averaged `.pts` landmark files
-- four linked `.pts.v3i` sample image-volume references
-
-### Selected analysis scripts
-- point-comparison scripts
-- patch-size comparison scripts
-- annotation boxplot script
-- single-stage vs two-stage comparison script
-
-## What is intentionally omitted
-
-To keep the repository both professional and ownership-safe, this public version does **not** redistribute:
-
-- provided executable tools
-- full binary model folders
-- complete raw working directories
-- course/supervisor instruction packages
-- large private annotation trees
-
-Those materials are described only at a high level in `manifests/` and `docs/public_repo_scope.md`.
-
-## Headline findings
-
-### Annotation refinement
-The annotation materials show a genuinely iterative workflow with multiple version folders and observer comparison cycles. The retained summary table suggests that agreement improved after revision.
-
-See:
-- `results/annotation_summary.csv`
-- `results/annotation_summary_long.csv`
-- `assets/figures/annotation/annotation_revision_trends.png`
-
-### Model performance
-The public summaries preserve both:
-- best reported single-stage setting
-- best reported two-stage setting
-
-The two-stage configuration is reported as a modest improvement over the best single-stage result.
-
-See:
-- `results/best_model_summary.csv`
-- `assets/figures/results/best_model_comparison.png`
-
-### Accuracy / runtime trade-off
-The frame-width-50 patch sweep is preserved in a compact CSV and plotted in two ways so the trade-off is easy to explain.
-
-See:
-- `results/model_patch_sweep_fw50_detailed.csv`
-- `assets/figures/results/patch_size_vs_mean_distance.png`
-- `assets/figures/results/accuracy_vs_runtime.png`
-
+See `NOTICE.md` and `manifests/` for further scope details.
