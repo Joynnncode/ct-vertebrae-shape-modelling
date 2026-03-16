@@ -1,4 +1,4 @@
-# Annotation workflow
+# Annotation workflow 
 
 The annotation process evolved through multiple revision folders rather than a single pass.
 
