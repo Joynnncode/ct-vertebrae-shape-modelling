@@ -1,0 +1,9 @@
+sample_type,filename
+annotation,16_05_2014_256_Sag_TLS-06.pts
+annotation,23_05_2014_147_Sag_TS-00.pts
+annotation,23_05_2014_154_Sag_CS-08.pts
+annotation,23_05_2014_156_Sag_LS-01.pts
+image_volume_reference,16_05_2014_259_TLS_Sag-00.pts.v3i
+image_volume_reference,23_05_2014_147_Sag_TS-00.pts.v3i
+image_volume_reference,23_05_2014_154_Sag_CS-08.pts.v3i
+image_volume_reference,23_05_2014_156_Sag_LS-01.pts.v3i
